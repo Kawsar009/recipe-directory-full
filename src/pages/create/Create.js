@@ -96,8 +96,8 @@ export default function Create() {
             required
           />
         </label>
-        <button className="btn">Submit</button>
         {error && <div className="error">Error submitting data . . .</div>}
+        <button className="btn finalBtn">Submit</button>
       </form>
     </div>
   );
